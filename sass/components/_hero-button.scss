@@ -1,0 +1,22 @@
+.hero-button {
+  color: var(--third-text-color);
+  background-color: var(--primary-accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  padding: 10px 32px;
+  min-width: 216px;
+  margin: 0 auto;
+  transition-property: background-color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--fifth-background-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
