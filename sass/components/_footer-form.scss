@@ -31,10 +31,12 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    border: 1px solid var(--primary-accent-color);
+  }
 }
-.footer-form-input:focus {
-  border: 1px solid var(--primary-accent-color);
-}
+
 .footer-email-field {
   position: relative;
   display: flex;
@@ -57,15 +59,17 @@
   transition-property: background-color, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    background-color: var(--fifth-background-color);
+  }
+  &:focus {
+    border: 1px solid var(--secondary-accent-color);
+    outline: none;
+  }
 }
-.footer-button-send:hover,
-.footer-button-send:focus {
-  background-color: var(--fifth-background-color);
-}
-.footer-button-send:focus {
-  border: 1px solid var(--secondary-accent-color);
-  outline: none;
-}
+
 .footer-icon-btn {
   position: absolute;
   top: 50%;

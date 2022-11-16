@@ -29,12 +29,13 @@
   transition-property: border, color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    border: 1px solid var(--primary-accent-color);
+    color: var(--primary-accent-color);
+  }
 }
 .clients-icon {
   fill: currentColor;
-}
-.clients-link:hover,
-.clients-link:focus {
-  border: 1px solid var(--primary-accent-color);
-  color: var(--primary-accent-color);
 }
