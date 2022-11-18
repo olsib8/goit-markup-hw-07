@@ -1,14 +1,14 @@
 .footer {
   background-color: var(--secondary-background-color);
 }
-.footer-container {
+.footer__size {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.footer-area {
+.footer__area {
   display: flex;
   align-items: baseline;
 }
-.logo-footer-color {
+.logo__footerColor {
   color: var(--third-text-color);
 }

@@ -2,18 +2,18 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.features-title {
+.features__title {
   line-height: 1.14;
   text-transform: uppercase;
   max-width: 270px;
   margin-bottom: 10px;
   font-size: 14px;
 }
-.features-list {
+.features__list {
   display: flex;
   gap: 30px;
 }
-.list-icon {
+.features__area {
   display: flex;
   width: 270px;
   height: 120px;
@@ -22,7 +22,7 @@
   background-color: var(--third-background-color);
   margin-bottom: 30px;
 }
-.features-text {
+.features__text {
   line-height: 1.71;
   color: var(--secondary-text-color);
   max-width: 270px;
